@@ -40,7 +40,7 @@ def store_ingest(
     if schema_path:
         schema = json.loads(schema_path.read_text(encoding="utf-8"))
     ids = storage.ingest(source, id_field=id_field, schema=schema)
-    print({"ingested": ids})
+    print(json.dumps({"ingested": ids}, ensure_ascii=False, indent=2))
 
 
 @store_app.command("list")
@@ -49,7 +49,7 @@ def store_list(
 ):
     storage = JsonStorage.create(data_dir)
     ids = storage.list_ids()
-    print({"count": len(ids), "ids": ids})
+    print(json.dumps({"count": len(ids), "ids": ids}, ensure_ascii=False, indent=2))
 
 
 @query_app.command("jmespath")
