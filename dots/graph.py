@@ -25,5 +25,6 @@ def build_graph_from_docs(docs: List[dict], source_field: str, target_field: str
 def visualize_graph(graph: nx.DiGraph, output_html: Path, notebook: bool = False) -> Path:
     net = Network(height="600px", width="100%", directed=True, notebook=notebook)
     net.from_nx(graph)
-    net.show(str(output_html))
+    # Avoid notebook auto-detection which can fail in some environments.
+    net.write_html(str(output_html), open_browser=False, notebook=False)
     return output_html
