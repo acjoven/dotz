@@ -1,0 +1,6 @@
+{
+  "type": "edge",
+  "source": "A",
+  "target": "B",
+  "weight": 1.0
+}

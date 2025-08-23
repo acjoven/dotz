@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DotsRecord",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["id", "type"],
+      "properties": {
+        "id": {"type": ["string", "number"]},
+        "type": {"const": "node"},
+        "label": {"type": ["string", "number", "null"]}
+      },
+      "additionalProperties": true
+    },
+    {
+      "type": "object",
+      "required": ["type", "source", "target"],
+      "properties": {
+        "type": {"const": "edge"},
+        "source": {"type": ["string", "number"]},
+        "target": {"type": ["string", "number"]},
+        "weight": {"type": ["number", "null"]}
+      },
+      "additionalProperties": true
+    }
+  ]
+}

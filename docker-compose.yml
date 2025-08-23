@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  rumbledb:
+    image: rumbledb/rumble:latest
+    command: ["--shell"]
+    volumes:
+      - ./data:/data:ro
+    ports:
+      - "8001:8001"
+

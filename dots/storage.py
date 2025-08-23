@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import json
+import os
 import uuid
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable, List, Optional
+from jsonschema import validate as jsonschema_validate, ValidationError
 
 
 def _repo_root() -> Path:
@@ -12,9 +14,10 @@ def _repo_root() -> Path:
 
 
 def _default_data_dir() -> Path:
-    env = Path.cwd()
-    data_env = (env / "data")
-    return data_env
+    env_dir = os.getenv("DOTS_DATA_DIR")
+    if env_dir:
+        return Path(env_dir)
+    return Path.cwd() / "data"
 
 
 @dataclass
@@ -30,7 +33,7 @@ class JsonStorage:
     def _path_for_id(self, doc_id: str) -> Path:
         return self.data_dir / f"{doc_id}.json"
 
-    def ingest(self, source_path: Path, id_field: Optional[str] = None) -> List[str]:
+    def ingest(self, source_path: Path, id_field: Optional[str] = None, schema: Optional[dict] = None) -> List[str]:
         text = Path(source_path).read_text(encoding="utf-8")
         try:
             data = json.loads(text)
@@ -47,6 +50,12 @@ class JsonStorage:
         for record in records:
             if not isinstance(record, dict):
                 continue
+            if schema is not None:
+                try:
+                    jsonschema_validate(instance=record, schema=schema)
+                except ValidationError:
+                    # Skip invalid records
+                    continue
             doc_id = str(record.get(id_field)) if id_field and record.get(id_field) is not None else str(uuid.uuid4())
             path = self._path_for_id(doc_id)
             path.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
