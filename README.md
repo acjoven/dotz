@@ -52,3 +52,11 @@ docker compose up -d spark-master spark-worker
 # Spark master UI: http://localhost:8080
 # Worker UI: http://localhost:8081
 ```
+
+Example PySpark job (uses files in `data/`):
+
+```bash
+# Ensure Spark is up (see above) and venv is active
+export SPARK_MASTER_URL=spark://localhost:7077
+python scripts/spark_example.py
+```
