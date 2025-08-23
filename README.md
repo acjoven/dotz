@@ -43,3 +43,12 @@ open graph.html  # macOS
 3. Run queries: `python -m dots.cli query jsoniq --file scripts/example.jq`
 
 Data directory is `data/` by default. Override with `DOTS_DATA_DIR`.
+
+## Spark (optional)
+Docker Compose includes a Spark master and worker:
+
+```bash
+docker compose up -d spark-master spark-worker
+# Spark master UI: http://localhost:8080
+# Worker UI: http://localhost:8081
+```
