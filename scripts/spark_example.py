@@ -11,6 +11,8 @@ from pyspark.sql.functions import col
 def main() -> None:
     master_url = os.getenv("SPARK_MASTER_URL", "spark://localhost:7077")
     data_dir = Path(os.getenv("DOTS_DATA_DIR", Path.cwd() / "data"))
+    # Optional HDFS read path. Example: hdfs://hadoop-namenode:8020/user/dots/data/*.json
+    hdfs_glob = os.getenv("DOTS_HDFS_GLOB")
 
     spark = (
         SparkSession.builder
@@ -19,8 +21,12 @@ def main() -> None:
         .getOrCreate()
     )
 
-    # Read all JSON docs in data_dir (documents are individual JSON files)
-    df = spark.read.json(str(data_dir / "*.json"))
+    # Read all JSON docs from either HDFS or local data dir
+    if hdfs_glob:
+        read_path = hdfs_glob
+    else:
+        read_path = str(data_dir / "*.json")
+    df = spark.read.json(read_path)
     print(f"Total docs: {df.count()}")
 
     # Edge-only view and simple aggregation

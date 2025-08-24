@@ -60,3 +60,20 @@ Example PySpark job (uses files in `data/`):
 export SPARK_MASTER_URL=spark://localhost:7077
 python scripts/spark_example.py
 ```
+
+## Hadoop (optional)
+Compose also provides HDFS (NameNode/DataNode) for larger datasets:
+
+```bash
+docker compose up -d hadoop-namenode hadoop-datanode
+# NameNode UI: http://localhost:9870
+
+# Example: put local data/ JSON files into HDFS (requires Hadoop client or exec into container)
+docker exec -it hadoop-namenode hdfs dfs -mkdir -p /user/dots/data
+docker exec -it hadoop-namenode hdfs dfs -put /host_data/*.json /user/dots/data/
+
+# Run PySpark example reading from HDFS
+export DOTS_HDFS_GLOB=hdfs://hadoop-namenode:8020/user/dots/data/*.json
+export SPARK_MASTER_URL=spark://localhost:7077
+python scripts/spark_example.py
+```
