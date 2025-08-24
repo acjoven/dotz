@@ -42,15 +42,15 @@ def run_jsoniq(query_text: str, data_dir: Path) -> Tuple[bool, str]:
                 return True, proc.stdout.decode("utf-8")
 
             # Fallback: try --shell with explicit boolean value
-            cmd_shell = [
-                "docker", "run", "--rm",
-                "-v", f"{str(data_dir.resolve())}:/data:ro",
-                "rumbledb/rumble",
-                "--shell", "yes",
-            ]
-            proc2 = subprocess.run(cmd_shell, input=query_text.encode("utf-8"), stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120)
-            if proc2.returncode == 0:
-                return True, proc2.stdout.decode("utf-8")
-            return False, proc.stderr.decode("utf-8") + "\n" + proc2.stderr.decode("utf-8")
+            # cmd_shell = [
+                # "docker", "run", "--rm",
+                # "-v", f"{str(data_dir.resolve())}:/data:ro",
+                # "rumbledb/rumble",
+                # "--shell", "yes",
+            # ]
+            # proc2 = subprocess.run(cmd_shell, input=query_text.encode("utf-8"), stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120)
+            # if proc2.returncode == 0:
+                # return True, proc2.stdout.decode("utf-8")
+            return False, proc.stderr.decode("utf-8") # + "\n" + proc2.stderr.decode("utf-8")
     except Exception as exc:
         return False, str(exc)
