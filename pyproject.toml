@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dots"
+version = "0.1.0"
+description = "JSON storage, JSONiq/JMESPath queries, and directed graph analysis/visualization."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "networkx==3.3",
+    "pyvis==0.3.2",
+    "jmespath==1.0.1",
+    "jsonschema==4.23.0",
+    "Jinja2>=3.1.2",
+]
+
+[project.optional-dependencies]
+# CLI extras (the `dots` command). `click<8.2` is required because typer 0.12.5
+# is incompatible with click>=8.2 (make_metavar signature change).
+cli = [
+    "typer==0.12.5",
+    "click<8.2",
+    "rich==13.9.2",
+]
+# Optional PySpark example (scripts/spark_example.py).
+spark = [
+    "pyspark==3.5.1",
+]
+# Everything, incl. test tooling.
+dev = [
+    "typer==0.12.5",
+    "click<8.2",
+    "rich==13.9.2",
+    "pyspark==3.5.1",
+    "pytest==8.3.3",
+]
+
+[project.scripts]
+dots = "dots.cli:app"
+
+[tool.setuptools]
+packages = ["dots"]
