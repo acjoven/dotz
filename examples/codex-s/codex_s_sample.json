@@ -1,0 +1,1143 @@
+[
+ {
+  "id": "Karl Mannheim",
+  "type": "node",
+  "label": "Karl Mannheim",
+  "qid": "Q76823",
+  "description": "Hungarian-German philosopher and sociologist"
+ },
+ {
+  "id": "London",
+  "type": "node",
+  "label": "London",
+  "qid": "Q84",
+  "description": "capital and largest city of the United Kingdom"
+ },
+ {
+  "id": "Robin Gibb",
+  "type": "node",
+  "label": "Robin Gibb",
+  "qid": "Q188482",
+  "description": "British-Australian singer, songwriter and Bee Gees co-founder"
+ },
+ {
+  "id": "George Frideric Handel",
+  "type": "node",
+  "label": "George Frideric Handel",
+  "qid": "Q7302",
+  "description": "German, later British Baroque composer"
+ },
+ {
+  "id": "EMI",
+  "type": "node",
+  "label": "EMI",
+  "qid": "Q183412",
+  "description": "British music recording and publishing company"
+ },
+ {
+  "id": "Lord Byron",
+  "type": "node",
+  "label": "Lord Byron",
+  "qid": "Q5679",
+  "description": "English poet and a leading figure in the Romantic movement"
+ },
+ {
+  "id": "Harold Pinter",
+  "type": "node",
+  "label": "Harold Pinter",
+  "qid": "Q41042",
+  "description": "English playwright (1930-2008)"
+ },
+ {
+  "id": "Rudyard Kipling",
+  "type": "node",
+  "label": "Rudyard Kipling",
+  "qid": "Q34743",
+  "description": "English short-story writer, poet, and novelist"
+ },
+ {
+  "id": "Ivor Novello",
+  "type": "node",
+  "label": "Ivor Novello",
+  "qid": "Q436693",
+  "description": "Welsh composer and actor"
+ },
+ {
+  "id": "Graham Parker",
+  "type": "node",
+  "label": "Graham Parker",
+  "qid": "Q1377134",
+  "description": "British singer"
+ },
+ {
+  "id": "Charlie Chaplin",
+  "type": "node",
+  "label": "Charlie Chaplin",
+  "qid": "Q882",
+  "description": "British comic actor and filmmaker"
+ },
+ {
+  "id": "Emmanuel Swedenborg",
+  "type": "node",
+  "label": "Emmanuel Swedenborg",
+  "qid": "Q185832",
+  "description": "Swedish 18th century scientist and theologian"
+ },
+ {
+  "id": "Decca",
+  "type": "node",
+  "label": "Decca",
+  "qid": "Q557632",
+  "description": "US/British record label"
+ },
+ {
+  "id": "The Edge",
+  "type": "node",
+  "label": "The Edge",
+  "qid": "Q714845",
+  "description": "Irish rock musician, guitar player of U2"
+ },
+ {
+  "id": "Evelyn Waugh",
+  "type": "node",
+  "label": "Evelyn Waugh",
+  "qid": "Q107002",
+  "description": "British writer"
+ },
+ {
+  "id": "Europe",
+  "type": "node",
+  "label": "Europe",
+  "qid": "Q46",
+  "description": "continent on Earth, mainly on the northeastern quadrant, i.e. north-western Eurasia"
+ },
+ {
+  "id": "Karl Marx",
+  "type": "node",
+  "label": "Karl Marx",
+  "qid": "Q9061",
+  "description": "German philosopher, economist, sociologist, journalist and revolutionary socialist"
+ },
+ {
+  "id": "Ralph Vaughan Williams",
+  "type": "node",
+  "label": "Ralph Vaughan Williams",
+  "qid": "Q207947",
+  "description": "English composer"
+ },
+ {
+  "id": "Vladimir Lenin",
+  "type": "node",
+  "label": "Vladimir Lenin",
+  "qid": "Q1394",
+  "description": "Russian politician, communist theorist, and founder of the Soviet Union"
+ },
+ {
+  "id": "Thomas Young",
+  "type": "node",
+  "label": "Thomas Young",
+  "qid": "Q25820",
+  "description": "English polymath"
+ },
+ {
+  "id": "Lianne La Havas",
+  "type": "node",
+  "label": "Lianne La Havas",
+  "qid": "Q451812",
+  "description": "English singer, songwriter and multi-instrumentalist"
+ },
+ {
+  "id": "Damon Albarn",
+  "type": "node",
+  "label": "Damon Albarn",
+  "qid": "Q272069",
+  "description": "English musician"
+ },
+ {
+  "id": "Phil Collins",
+  "type": "node",
+  "label": "Phil Collins",
+  "qid": "Q144622",
+  "description": "English recording artist, musician, songwriter, actor"
+ },
+ {
+  "id": "Kingsley Amis",
+  "type": "node",
+  "label": "Kingsley Amis",
+  "qid": "Q220078",
+  "description": "English novelist, poet, critic, teacher"
+ },
+ {
+  "id": "Christopher Lee",
+  "type": "node",
+  "label": "Christopher Lee",
+  "qid": "Q180338",
+  "description": "British actor and singer (1922-2015)"
+ },
+ {
+  "id": "Ellie Goulding",
+  "type": "node",
+  "label": "Ellie Goulding",
+  "qid": "Q31164",
+  "description": "English singer and songwriter"
+ },
+ {
+  "id": "John Milton",
+  "type": "node",
+  "label": "John Milton",
+  "qid": "Q79759",
+  "description": "English epic poet"
+ },
+ {
+  "id": "Academia Europaea",
+  "type": "node",
+  "label": "Academia Europaea",
+  "qid": "Q337234",
+  "description": "pan-European academy of sciences"
+ },
+ {
+  "id": "Charles Babbage",
+  "type": "node",
+  "label": "Charles Babbage",
+  "qid": "Q46633",
+  "description": "English mathematician, philosopher, inventor and mechanical engineer who originated the concept of a programmable computer"
+ },
+ {
+  "id": "Island Records",
+  "type": "node",
+  "label": "Island Records",
+  "qid": "Q190585",
+  "description": "British international record label of Jamaican origin; imprint of Island Records Ltd."
+ },
+ {
+  "id": "Great Britain",
+  "type": "node",
+  "label": "Great Britain",
+  "qid": "Q161885",
+  "description": "historical constitutional monarchy in Western Europe (1707–1801)"
+ },
+ {
+  "id": "Thomas Carlyle",
+  "type": "node",
+  "label": "Thomas Carlyle",
+  "qid": "Q151403",
+  "description": "Scottish philosopher, satirical writer, essayist, historian and teacher"
+ },
+ {
+  "id": "Henry James",
+  "type": "node",
+  "label": "Henry James",
+  "qid": "Q170509",
+  "description": "American novelist, short story author, and literary critic"
+ },
+ {
+  "id": "John Ruskin",
+  "type": "node",
+  "label": "John Ruskin",
+  "qid": "Q179126",
+  "description": "English writer and art critic"
+ },
+ {
+  "id": "Nahum Sokolow",
+  "type": "node",
+  "label": "Nahum Sokolow",
+  "qid": "Q918966",
+  "description": "Hebrew journalist, editor, essayist, and political leader"
+ },
+ {
+  "id": "Mark Ronson",
+  "type": "node",
+  "label": "Mark Ronson",
+  "qid": "Q425821",
+  "description": "British musician, DJ, songwriter and record producer"
+ },
+ {
+  "id": "Dennis Gabor",
+  "type": "node",
+  "label": "Dennis Gabor",
+  "qid": "Q155786",
+  "description": "Nobel Prize-winning physicist and inventor of holography"
+ },
+ {
+  "id": "Friedrich Engels",
+  "type": "node",
+  "label": "Friedrich Engels",
+  "qid": "Q34787",
+  "description": "German social scientist, author, political theorist, and philosopher"
+ },
+ {
+  "id": "Richard Wright",
+  "type": "node",
+  "label": "Richard Wright",
+  "qid": "Q190251",
+  "description": "English keyboardist of Pink Floyd"
+ },
+ {
+  "id": "Alexis Korner",
+  "type": "node",
+  "label": "Alexis Korner",
+  "qid": "Q455236",
+  "description": "British blues musician and radio broadcaster"
+ },
+ {
+  "id": "Norman Wisdom",
+  "type": "node",
+  "label": "Norman Wisdom",
+  "qid": "Q349217",
+  "description": "English actor, comedian and singer-songwriter"
+ },
+ {
+  "id": "James Blake",
+  "type": "node",
+  "label": "James Blake",
+  "qid": "Q350362",
+  "description": "English electronic music producer and singer-songwriter"
+ },
+ {
+  "id": "Ed Sheeran",
+  "type": "node",
+  "label": "Ed Sheeran",
+  "qid": "Q47447",
+  "description": "English singer-songwriter, record producer, guitarist and actor"
+ },
+ {
+  "id": "Douglas Adams",
+  "type": "node",
+  "label": "Douglas Adams",
+  "qid": "Q42",
+  "description": "English writer and humorist"
+ },
+ {
+  "id": "Eduard Suess",
+  "type": "node",
+  "label": "Eduard Suess",
+  "qid": "Q156941",
+  "description": "Austrian geologist"
+ },
+ {
+  "id": "Polydor Records",
+  "type": "node",
+  "label": "Polydor Records",
+  "qid": "Q155152",
+  "description": "multinational record label headquartered in the United Kingdom, owned by Universal Music Group"
+ },
+ {
+  "id": "Karl Popper",
+  "type": "node",
+  "label": "Karl Popper",
+  "qid": "Q81244",
+  "description": "Austrian-British philosopher of science"
+ },
+ {
+  "id": "Sebastian Haffner",
+  "type": "node",
+  "label": "Sebastian Haffner",
+  "qid": "Q57535",
+  "description": "German journalist and author"
+ },
+ {
+  "id": "Geoffrey Ingram Taylor",
+  "type": "node",
+  "label": "Geoffrey Ingram Taylor",
+  "qid": "Q699541",
+  "description": "British mathematician and physicist (1886-1975)"
+ },
+ {
+  "id": "Stephen Spender",
+  "type": "node",
+  "label": "Stephen Spender",
+  "qid": "Q448764",
+  "description": "English poet and man of letters"
+ },
+ {
+  "id": "William Blake",
+  "type": "node",
+  "label": "William Blake",
+  "qid": "Q41513",
+  "description": "English Romantic poet and artist"
+ },
+ {
+  "id": "United Kingdom of Great Britain and Ireland",
+  "type": "node",
+  "label": "United Kingdom of Great Britain and Ireland",
+  "qid": "Q174193",
+  "description": "historical sovereign state from 1801 to 1927"
+ },
+ {
+  "id": "John Lydon",
+  "type": "node",
+  "label": "John Lydon",
+  "qid": "Q106662",
+  "description": "English musician"
+ },
+ {
+  "id": "David Clayton-Thomas",
+  "type": "node",
+  "label": "David Clayton-Thomas",
+  "qid": "Q705333",
+  "description": "British musician"
+ },
+ {
+  "id": "George Eliot",
+  "type": "node",
+  "label": "George Eliot",
+  "qid": "Q131333",
+  "description": "English novelist, essayist and translator"
+ },
+ {
+  "id": "Julie Driscoll",
+  "type": "node",
+  "label": "Julie Driscoll",
+  "qid": "Q275641",
+  "description": "English singer and actress"
+ },
+ {
+  "id": "Mary Shelley",
+  "type": "node",
+  "label": "Mary Shelley",
+  "qid": "Q47152",
+  "description": "English novelist, short story writer, dramatist, essayist, biographer, and travel writer"
+ },
+ {
+  "id": "Ava Gardner",
+  "type": "node",
+  "label": "Ava Gardner",
+  "qid": "Q164487",
+  "description": "American actress (1922-1990)"
+ },
+ {
+  "id": "Thomas Henry Huxley",
+  "type": "node",
+  "label": "Thomas Henry Huxley",
+  "qid": "Q184366",
+  "description": "English biologist and comparative anatomist"
+ },
+ {
+  "id": "Mercury Records",
+  "type": "node",
+  "label": "Mercury Records",
+  "qid": "Q165745",
+  "description": "record label"
+ },
+ {
+  "id": "Royal Society",
+  "type": "node",
+  "label": "Royal Society",
+  "qid": "Q123885",
+  "description": "English learned society for science"
+ },
+ {
+  "id": "Yoko Ono",
+  "type": "node",
+  "label": "Yoko Ono",
+  "qid": "Q117012",
+  "description": "Japanese artist, author, and peace activist"
+ },
+ {
+  "id": "George Orwell",
+  "type": "node",
+  "label": "George Orwell",
+  "qid": "Q3335",
+  "description": "English author and journalist"
+ },
+ {
+  "id": "Melanie C",
+  "type": "node",
+  "label": "Melanie C",
+  "qid": "Q151830",
+  "description": "British singer-songwriter, actress and businesswoman"
+ },
+ {
+  "id": "Doris Lessing",
+  "type": "node",
+  "label": "Doris Lessing",
+  "qid": "Q40874",
+  "description": "British novelist, poet, playwright, librettist, biographer and short story writer"
+ },
+ {
+  "id": "Kylie Minogue",
+  "type": "node",
+  "label": "Kylie Minogue",
+  "qid": "Q11998",
+  "description": "Australian-British singer, recording artist, songwriter and actress"
+ },
+ {
+  "id": "Mort Shuman",
+  "type": "node",
+  "label": "Mort Shuman",
+  "qid": "Q1353559",
+  "description": "American singer, pianist and songwriter"
+ },
+ {
+  "id": "Tim Rose",
+  "type": "node",
+  "label": "Tim Rose",
+  "qid": "Q1351177",
+  "description": "American musician"
+ },
+ {
+  "id": "John Cale",
+  "type": "node",
+  "label": "John Cale",
+  "qid": "Q45909",
+  "description": "Welsh composer, singer-songwriter and record producer"
+ },
+ {
+  "id": "Mohandas Karamchand Gandhi",
+  "type": "node",
+  "label": "Mohandas Karamchand Gandhi",
+  "qid": "Q1001",
+  "description": "pre-eminent leader of Indian nationalism during the British Raj"
+ },
+ {
+  "id": "A. A. Milne",
+  "type": "node",
+  "label": "A. A. Milne",
+  "qid": "Q207036",
+  "description": "British author known for creating Winnie-the-Pooh"
+ },
+ {
+  "id": "William Morris",
+  "type": "node",
+  "label": "William Morris",
+  "qid": "Q182589",
+  "description": "English textile designer, poet, novelist, translator, and socialist activist"
+ },
+ {
+  "id": "United Kingdom",
+  "type": "node",
+  "label": "United Kingdom",
+  "qid": "Q145",
+  "description": "parliamentary democracy and constitutional monarchy in Western Europe; formed in 1927"
+ },
+ {
+  "id": "Mick Ronson",
+  "type": "node",
+  "label": "Mick Ronson",
+  "qid": "Q361677",
+  "description": "English guitarist, songwriter, multi-instrumentalist, arranger and record producer"
+ },
+ {
+  "id": "Samuel Johnson",
+  "type": "node",
+  "label": "Samuel Johnson",
+  "qid": "Q183266",
+  "description": "English poet, biographer, essayist, lexicographer"
+ },
+ {
+  "id": "Charlotte Gainsbourg",
+  "type": "node",
+  "label": "Charlotte Gainsbourg",
+  "qid": "Q276005",
+  "description": "British-French actor and singer"
+ },
+ {
+  "id": "Dudley Moore",
+  "type": "node",
+  "label": "Dudley Moore",
+  "qid": "Q310343",
+  "description": "English actor, comedian, composer and musician"
+ },
+ {
+  "type": "edge",
+  "source": "Karl Mannheim",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Robin Gibb",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "George Frideric Handel",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "EMI",
+  "target": "London",
+  "relation": "headquarters location",
+  "pid": "P159"
+ },
+ {
+  "type": "edge",
+  "source": "Lord Byron",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Harold Pinter",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Rudyard Kipling",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Ivor Novello",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Graham Parker",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Charlie Chaplin",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Emmanuel Swedenborg",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Decca",
+  "target": "London",
+  "relation": "headquarters location",
+  "pid": "P159"
+ },
+ {
+  "type": "edge",
+  "source": "The Edge",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Evelyn Waugh",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "London",
+  "target": "Europe",
+  "relation": "continent",
+  "pid": "P30"
+ },
+ {
+  "type": "edge",
+  "source": "Karl Marx",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Ralph Vaughan Williams",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Vladimir Lenin",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Thomas Young",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Lianne La Havas",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Harold Pinter",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Damon Albarn",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Phil Collins",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Kingsley Amis",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Christopher Lee",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Ellie Goulding",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "John Milton",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Academia Europaea",
+  "target": "London",
+  "relation": "headquarters location",
+  "pid": "P159"
+ },
+ {
+  "type": "edge",
+  "source": "Charles Babbage",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Island Records",
+  "target": "London",
+  "relation": "headquarters location",
+  "pid": "P159"
+ },
+ {
+  "type": "edge",
+  "source": "London",
+  "target": "Great Britain",
+  "relation": "country",
+  "pid": "P17"
+ },
+ {
+  "type": "edge",
+  "source": "Thomas Carlyle",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Henry James",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "John Ruskin",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Nahum Sokolow",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Mark Ronson",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Dennis Gabor",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Friedrich Engels",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Richard Wright",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Alexis Korner",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "George Frideric Handel",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Norman Wisdom",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "James Blake",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Ed Sheeran",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Douglas Adams",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Eduard Suess",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Polydor Records",
+  "target": "London",
+  "relation": "headquarters location",
+  "pid": "P159"
+ },
+ {
+  "type": "edge",
+  "source": "Karl Popper",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Sebastian Haffner",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Geoffrey Ingram Taylor",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Stephen Spender",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "William Blake",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "London",
+  "target": "United Kingdom of Great Britain and Ireland",
+  "relation": "country",
+  "pid": "P17"
+ },
+ {
+  "type": "edge",
+  "source": "John Lydon",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "David Clayton-Thomas",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "George Eliot",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Julie Driscoll",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Charles Babbage",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Richard Wright",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Mary Shelley",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Ava Gardner",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Thomas Henry Huxley",
+  "target": "London",
+  "relation": "place of burial",
+  "pid": "P119"
+ },
+ {
+  "type": "edge",
+  "source": "Mercury Records",
+  "target": "London",
+  "relation": "headquarters location",
+  "pid": "P159"
+ },
+ {
+  "type": "edge",
+  "source": "Karl Marx",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Royal Society",
+  "target": "London",
+  "relation": "headquarters location",
+  "pid": "P159"
+ },
+ {
+  "type": "edge",
+  "source": "Yoko Ono",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "George Orwell",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Melanie C",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Doris Lessing",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "George Orwell",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Kylie Minogue",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Mort Shuman",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Tim Rose",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "John Cale",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Mohandas Karamchand Gandhi",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "A. A. Milne",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Julie Driscoll",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "Thomas Henry Huxley",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ },
+ {
+  "type": "edge",
+  "source": "William Morris",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "William Blake",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "London",
+  "target": "United Kingdom",
+  "relation": "country",
+  "pid": "P17"
+ },
+ {
+  "type": "edge",
+  "source": "EMI",
+  "target": "London",
+  "relation": "location of formation",
+  "pid": "P740"
+ },
+ {
+  "type": "edge",
+  "source": "Mick Ronson",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Samuel Johnson",
+  "target": "London",
+  "relation": "place of death",
+  "pid": "P20"
+ },
+ {
+  "type": "edge",
+  "source": "Charlotte Gainsbourg",
+  "target": "London",
+  "relation": "place of birth",
+  "pid": "P19"
+ },
+ {
+  "type": "edge",
+  "source": "Dudley Moore",
+  "target": "London",
+  "relation": "residence",
+  "pid": "P551"
+ }
+]
