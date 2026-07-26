@@ -33,14 +33,10 @@ def store_ingest(
     source: Path = typer.Argument(..., exists=True, readable=True, help="JSON file (.json or .jsonl)"),
     id_field: Optional[str] = typer.Option(None, help="Field to use as document id; else UUID"),
     data_dir: Optional[Path] = typer.Option(None, help="Data directory (defaults to ./data)"),
-    schema_path: Optional[Path] = typer.Option(None, "--schema", exists=True, readable=True, help="Path to JSON Schema file"),
 ):
     storage = JsonStorage.create(data_dir)
-    schema = None
-    if schema_path:
-        schema = json.loads(schema_path.read_text(encoding="utf-8"))
-    ids = storage.ingest(source, id_field=id_field, schema=schema)
-    print(json.dumps({"ingested": ids}, ensure_ascii=False, indent=2))
+    ids = storage.ingest(source, id_field=id_field)
+    print({"ingested": ids})
 
 
 @store_app.command("list")
@@ -49,7 +45,7 @@ def store_list(
 ):
     storage = JsonStorage.create(data_dir)
     ids = storage.list_ids()
-    print(json.dumps({"count": len(ids), "ids": ids}, ensure_ascii=False, indent=2))
+    print({"count": len(ids), "ids": ids})
 
 
 @query_app.command("jmespath")
