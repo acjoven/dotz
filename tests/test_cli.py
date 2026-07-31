@@ -5,11 +5,11 @@ import sys
 
 
 def run_cli(args):
-    return subprocess.run([sys.executable, "-m", "dots.cli", *args], capture_output=True, text=True, check=False)
+    return subprocess.run([sys.executable, "-m", "dotz.cli", *args], capture_output=True, text=True, check=False)
 
 
 def test_store_and_list(tmp_path: Path, monkeypatch):
-    monkeypatch.setenv("DOTS_DATA_DIR", str(tmp_path / "data"))
+    monkeypatch.setenv("DOTZ_DATA_DIR", str(tmp_path / "data"))
     data = [
         {"id": "X", "type": "node"},
         {"id": "Y", "type": "node"},
@@ -27,7 +27,7 @@ def test_store_and_list(tmp_path: Path, monkeypatch):
 
 
 def test_jmespath_query(tmp_path: Path, monkeypatch):
-    monkeypatch.setenv("DOTS_DATA_DIR", str(tmp_path / "data"))
+    monkeypatch.setenv("DOTZ_DATA_DIR", str(tmp_path / "data"))
     data = [
         {"id": "X", "type": "node"},
         {"id": "Y", "type": "node"},
@@ -43,7 +43,7 @@ def test_jmespath_query(tmp_path: Path, monkeypatch):
 
 
 def test_graph_build(tmp_path: Path, monkeypatch):
-    monkeypatch.setenv("DOTS_DATA_DIR", str(tmp_path / "data"))
+    monkeypatch.setenv("DOTZ_DATA_DIR", str(tmp_path / "data"))
     data = [
         {"id": "X", "type": "node"},
         {"id": "Y", "type": "node"},

@@ -1,8 +1,8 @@
-"""dots: JSON storage, JSONiq/JMESPath queries, and directed graph analysis.
+"""dotz: JSON storage, JSONiq/JMESPath queries, and directed graph analysis.
 
 Re-exports the public library API so downstream packages can simply do::
 
-    from dots import JsonStorage, run_jmespath, build_graph_from_docs
+    from dotz import JsonStorage, run_jmespath, build_graph_from_docs
 """
 from __future__ import annotations
 

@@ -2,21 +2,21 @@
 
 ## Cursor Cloud specific instructions
 
-`dots` is a single Python CLI toolkit (no web server / long-running service). Core
-functionality lives in `dots/` and is exercised via `python -m dots.cli`:
+`dotz` is a single Python CLI toolkit (no web server / long-running service). Core
+functionality lives in `dotz/` and is exercised via `python -m dotz.cli`:
 storage (`store ingest` / `store list`), querying (`query jmespath`, and optional
 `query jsoniq`), and directed-graph visualization (`graph build` -> HTML). See
 `README.md` for the full command reference.
 
 Dependencies are installed into a virtualenv at `.venv` (gitignored). Activate it
-or call binaries directly, e.g. `.venv/bin/python -m dots.cli --help`.
+or call binaries directly, e.g. `.venv/bin/python -m dotz.cli --help`.
 
 ### Running / testing / lint
 - Tests: `.venv/bin/python -m pytest` (suite is `tests/test_cli.py`).
 - Lint: no linter is configured in this repo. For a quick syntax sanity check use
-  `.venv/bin/python -m py_compile dots/*.py scripts/*.py tests/*.py`.
+  `.venv/bin/python -m py_compile dotz/*.py scripts/*.py tests/*.py`.
 - Run end-to-end (no external services needed):
-  `DOTS_DATA_DIR=/tmp/demo .venv/bin/python -m dots.cli store ingest data/examples.json --id-field id`
+  `DOTZ_DATA_DIR=/tmp/demo .venv/bin/python -m dotz.cli store ingest data/examples.json --id-field id`
   then `... graph build --source-field source --target-field target --output graph.html`.
   `graph.html` is a self-contained pyvis/vis.js page; serve it (e.g.
   `python -m http.server`) to view in a browser.

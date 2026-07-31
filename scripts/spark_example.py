@@ -10,13 +10,13 @@ from pyspark.sql.functions import col
 
 def main() -> None:
     master_url = os.getenv("SPARK_MASTER_URL", "spark://localhost:7077")
-    data_dir = Path(os.getenv("DOTS_DATA_DIR", Path.cwd() / "data"))
-    # Optional HDFS read path. Example: hdfs://hadoop-namenode:8020/user/dots/data/*.json
-    hdfs_glob = os.getenv("DOTS_HDFS_GLOB")
+    data_dir = Path(os.getenv("DOTZ_DATA_DIR", Path.cwd() / "data"))
+    # Optional HDFS read path. Example: hdfs://hadoop-namenode:8020/user/dotz/data/*.json
+    hdfs_glob = os.getenv("DOTZ_HDFS_GLOB")
 
     spark = (
         SparkSession.builder
-        .appName("dots-spark-example")
+        .appName("dotz-spark-example")
         .master(master_url)
         .getOrCreate()
     )
