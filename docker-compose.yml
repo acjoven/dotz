@@ -36,7 +36,7 @@ services:
     image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
     container_name: hadoop-namenode
     environment:
-      - CLUSTER_NAME=dots
+      - CLUSTER_NAME=dotz
     volumes:
       - hadoop_namenode:/hadoop/dfs/name
       - ./data:/host_data:ro
@@ -48,7 +48,7 @@ services:
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
     container_name: hadoop-datanode
     environment:
-      - CLUSTER_NAME=dots
+      - CLUSTER_NAME=dotz
       - CORE_CONF_fs_defaultFS=hdfs://hadoop-namenode:8020
     volumes:
       - hadoop_datanode:/hadoop/dfs/data

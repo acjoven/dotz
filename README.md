@@ -1,4 +1,4 @@
-# Dots: JSON storage + queries + graph
+# Dotz: JSON storage + queries + graph
 
 A Python toolkit for JSON-based data storage, JSONiq-style queries (via optional RumbleDB), and directed graph analysis/visualization.
 
@@ -8,16 +8,16 @@ A Python toolkit for JSON-based data storage, JSONiq-style queries (via optional
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m dots.cli --help
+python -m dotz.cli --help
 ```
 
 ### Storage
 
 ```bash
-python -m dots.cli store ingest data/examples.json --id-field id
+python -m dotz.cli store ingest data/examples.json --id-field id
 # With JSON Schema validation
-python -m dots.cli store ingest data/examples.json --id-field id --schema scripts/example.schema.json
-python -m dots.cli store list
+python -m dotz.cli store ingest data/examples.json --id-field id --schema scripts/example.schema.json
+python -m dotz.cli store list
 ```
 
 ### Query
@@ -25,24 +25,24 @@ python -m dots.cli store list
 - JMESPath fallback
 
 ```bash
-python -m dots.cli query jmespath "[?type=='edge']"
+python -m dotz.cli query jmespath "[?type=='edge']"
 # JSONiq (if Docker + RumbleDB available)
-python -m dots.cli query jsoniq --file scripts/example.jq
+python -m dotz.cli query jsoniq --file scripts/example.jq
 ```
 
 ### Graph
 
 ```bash
-python -m dots.cli graph build --source-field source --target-field target --output graph.html
+python -m dotz.cli graph build --source-field source --target-field target --output graph.html
 open graph.html  # macOS
 ```
 
 ## JSONiq via RumbleDB (optional)
 1. Install Docker
 2. Pull image: `docker pull rumbledb/rumble`
-3. Run queries: `python -m dots.cli query jsoniq --file scripts/example.jq`
+3. Run queries: `python -m dotz.cli query jsoniq --file scripts/example.jq`
 
-Data directory is `data/` by default. Override with `DOTS_DATA_DIR`.
+Data directory is `data/` by default. Override with `DOTZ_DATA_DIR`.
 
 ## Spark (optional)
 Docker Compose includes a Spark master and worker:
@@ -69,11 +69,11 @@ docker compose up -d hadoop-namenode hadoop-datanode
 # NameNode UI: http://localhost:9870
 
 # Example: put local data/ JSON files into HDFS (requires Hadoop client or exec into container)
-docker exec -it hadoop-namenode hdfs dfs -mkdir -p /user/dots/data
-docker exec -it hadoop-namenode hdfs dfs -put /host_data/*.json /user/dots/data/
+docker exec -it hadoop-namenode hdfs dfs -mkdir -p /user/dotz/data
+docker exec -it hadoop-namenode hdfs dfs -put /host_data/*.json /user/dotz/data/
 
 # Run PySpark example reading from HDFS
-export DOTS_HDFS_GLOB=hdfs://hadoop-namenode:8020/user/dots/data/*.json
+export DOTZ_HDFS_GLOB=hdfs://hadoop-namenode:8020/user/dotz/data/*.json
 export SPARK_MASTER_URL=spark://localhost:7077
 python scripts/spark_example.py
 ```

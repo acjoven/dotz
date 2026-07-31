@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a `dots`-compatible knowledge graph example from the CoDEx-S dataset.
+"""Build a `dotz`-compatible knowledge graph example from the CoDEx-S dataset.
 
 CoDEx (https://github.com/tsafavi/codex) is a set of knowledge graph completion
 datasets extracted from Wikidata and Wikipedia, released under the MIT license.
@@ -7,12 +7,12 @@ CoDEx-S is the smallest variant (2,034 entities, 42 relations, 36,543 triples)
 and is a compact-but-realistic knowledge graph for testing tooling at scale.
 
 This script downloads the raw CoDEx-S triple/label files and converts them into
-two JSON files in the `dots` node/edge document format:
+two JSON files in the `dotz` node/edge document format:
 
-* ``codex_s_dots.json``   -- the full graph, using canonical Wikidata IDs
+* ``codex_s_dotz.json``   -- the full graph, using canonical Wikidata IDs
   (``Q...`` entities, ``P...`` relations) as document ids for stability.
 * ``codex_s_sample.json`` -- a small, human-readable ego-network subgraph that
-  uses entity *labels* as ids so ``dots graph build`` renders a readable graph.
+  uses entity *labels* as ids so ``dotz graph build`` renders a readable graph.
 
 Usage::
 
@@ -143,7 +143,7 @@ def main() -> None:
     sample = build_sample(triples, ents, rels, SAMPLE_SEED, SAMPLE_MAX_EDGES)
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
-    full_path = args.out_dir / "codex_s_dots.json"
+    full_path = args.out_dir / "codex_s_dotz.json"
     sample_path = args.out_dir / "codex_s_sample.json"
     full_path.write_text(json.dumps(full, ensure_ascii=False, indent=1), encoding="utf-8")
     sample_path.write_text(json.dumps(sample, ensure_ascii=False, indent=1), encoding="utf-8")

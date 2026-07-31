@@ -16,7 +16,7 @@ app = typer.Typer(no_args_is_help=True)
 
 @app.command()
 def version():
-    print("dots CLI 0.1.0")
+    print("dotz CLI 0.1.0")
 
 
 store_app = typer.Typer(no_args_is_help=True)
@@ -77,7 +77,7 @@ def query_jsoniq(
     if ok:
         print(out)
     else:
-        print("[yellow]JSONiq engine unavailable or failed.\nFallback: use 'dots query jmespath' instead.[/yellow]")
+        print("[yellow]JSONiq engine unavailable or failed.\nFallback: use 'dotz query jmespath' instead.[/yellow]")
         print(out)
 
 

@@ -14,7 +14,7 @@ def _repo_root() -> Path:
 
 
 def _default_data_dir() -> Path:
-    env_dir = os.getenv("DOTS_DATA_DIR")
+    env_dir = os.getenv("DOTZ_DATA_DIR")
     if env_dir:
         return Path(env_dir)
     return Path.cwd() / "data"
