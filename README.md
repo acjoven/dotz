@@ -2,6 +2,8 @@
 
 A Python toolkit for JSON-based data storage, JSONiq-style queries (via optional RumbleDB), and directed graph analysis/visualization.
 
+License: [MIT](LICENSE)
+
 ## Quickstart
 
 ```bash
