@@ -17,3 +17,4 @@ venv/
 
 # Data (keep examples tracked)
 data/_scratch/
+data/*.json
